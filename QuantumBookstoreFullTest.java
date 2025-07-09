@@ -7,8 +7,8 @@ public class QuantumBookstoreFullTest {
     public static void main(String[] args) {
         QuantumBookstore store = new QuantumBookstore();
 
-        Book b1 = new PaperBook("ISBN123", "Java Basics", "John Smith", 2020, 150.0, 5);
-        Book b2 = new EBook("ISBN456", "Spring Boot", "Alice Brown", 2022, 100.0, "PDF");
+        Book b1 = new PaperBook("ISBN123", "Java Basics", "John Smith", 2020, 140.0, 5);
+        Book b2 = new EBook("ISBN456", "Spring Boot", "Alice Brown", 2022, 90.0, "PDF");
         Book b3 = new ShowcaseBook("ISBN789", "History of Tech", "Mark Davis", 2005);
 
         store.addBook(b1);
